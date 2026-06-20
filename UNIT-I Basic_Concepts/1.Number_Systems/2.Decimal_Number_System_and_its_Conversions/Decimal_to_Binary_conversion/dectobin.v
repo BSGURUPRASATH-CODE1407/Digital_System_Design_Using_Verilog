@@ -1,4 +1,3 @@
-
 `timescale 1ns / 1ps
 module dectobin(
     input [3:0] decimal_in,
