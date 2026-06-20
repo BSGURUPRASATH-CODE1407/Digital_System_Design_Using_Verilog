@@ -1,8 +1,8 @@
 
 `timescale 1ns / 1ps
-module dectooct(
+module dectobin(
     input [3:0] decimal_in,
-    output [3:0] octal_out
+    output [3:0] binary_out
     );
-    assign octal_out=decimal_in;
+    assign binary_out=decimal_in;
 endmodule
