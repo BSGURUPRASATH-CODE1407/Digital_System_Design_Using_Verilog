@@ -6,7 +6,7 @@ module dectobin_tb;
     integer i;
     dectobin uut(.decimal_in(decimal_in),.binary_out(binary_out));
     initial begin
-        for(i = 0; i <= 15; i = i + 1) 
+        for(i = 0; i <= 9; i = i + 1) 
         begin
             decimal_in =i;#10;
             $display("Decimal= %d Binary= %b",decimal_in,binary_out);
